@@ -1,23 +1,17 @@
 public class Store {
-  // instance fields
-  String productType;
-  int inventoryCount;
-  double inventoryPrice;
   
-  // constructor method
-  public Store(String product, int count, double price) {
-    productType = product;
-    inventoryCount = count;
-    inventoryPrice = price;
+  // new method: constructor!
+  public Store() {
+    System.out.println("I am inside the constructor method.");
   }
   
-  // main method
+  // main method is where we create instances!
   public static void main(String[] args) {
-    Store lemonadeStand = new Store("lemonade", 42, .99);
-    Store cookieShop = new Store("cookies", 12, 3.75);
-    
-    System.out.println("Our first shop sells " + lemonadeStand.productType + " at " + lemonadeStand.inventoryPrice + " per unit.");
-    
-    System.out.println("Our second shop has " + cookieShop.inventoryCount + " units remaining.");
+    System.out.println("Start of the main method.");
+    // create the instance below
+    Store lemonadeStand = new Store();
+    // print the instance below
+    System.out.println(lemonadeStand);
+    //returns garbage value because no value was asigned initially
   }
 }
