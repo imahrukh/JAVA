@@ -20,6 +20,10 @@ public class SavingsAccount {
     System.out.println("You just withdrew "+ amountToWithdraw);
     return amountToWithdraw;
   }
+
+  public String toString(){
+    return "The account's balance is: "+ balance;
+  }
   public static void main(String[] args){
     SavingsAccount savings = new SavingsAccount(2000);
     
@@ -43,5 +47,7 @@ public class SavingsAccount {
     
     //Check balance:
     savings.checkBalance();
+    //calling to String
+    System.out.println(savings);
   }       
 }
