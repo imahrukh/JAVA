@@ -1,4 +1,4 @@
-public class Order {
+public class Order2 {
   boolean isFilled;
   double billAmount;
   String shipping;
