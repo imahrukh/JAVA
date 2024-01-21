@@ -1,4 +1,4 @@
-public class Reservation1 {
+public class Reservation2 {
   int guestCount;
   int restaurantCapacity;
   boolean isRestaurantOpen;
