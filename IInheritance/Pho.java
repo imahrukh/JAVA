@@ -1,4 +1,4 @@
-class Pho extends Noodle {
+class Pho extends Noodles {
   Pho(){
     super(30.0, 0.64, "flat", "rice flour");
   }
