@@ -1,6 +1,6 @@
 class Phos extends Noodles {
   
-  Pho() {
+  Phos() {
     
     super(30.0, 0.64, "flat", "rice flour");
     
