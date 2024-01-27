@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class HashMap {
+public class HashMaps {
   public static void main(String[] args) {
     HashMap<String, String> capital = new HashMap<String, String>();
     capital.put("England", "London");
